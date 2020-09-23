@@ -17,7 +17,7 @@ describe(Phrase) do
 
     it('works with a .txt file') do
       phrase = Phrase.new('./sentence.txt')
-      expect(phrase.far("is", "was")).to(eq("this was a sentence"))
+      expect(phrase.far("is", "was")).to(eq("thwas was a sentence"))
     end
   end
 end
