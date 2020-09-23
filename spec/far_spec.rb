@@ -1,7 +1,5 @@
 require('rspec')
 require('far')
-# require('..document.txt')
-# require('..sentence.txt')
 
 describe(Phrase) do
   describe('#far') do

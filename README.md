@@ -32,6 +32,7 @@ Make sure to account for odd user inputs like all capitalization, partial capita
 - Navigate to the cloned folder and run 'bundle' in your command line.
 - Open the cloned repo in a text editor of your choice.
 - To run tests: While in the root directory of the project, run 'rspec' in your command line.
+- To run the far_script file, run 'ruby far_script.rb' in your terminal. Enter the information for each prompt in the terminal, and a new .txt file will be added to the root directory with all of the find and replace changes that you entered.
 
 ## Known Bugs
 

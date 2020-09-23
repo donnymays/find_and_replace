@@ -10,4 +10,5 @@ class Phrase < String
     end
     @string.gsub!(word1, word2)
   end
+
 end
