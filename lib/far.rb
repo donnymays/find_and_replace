@@ -14,3 +14,5 @@ class Phrase < String
     @string.gsub!(word1, word2)
   end
 end
+
+# File.write("document2.txt", @string)

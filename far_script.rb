@@ -13,4 +13,4 @@ word1 = gets.chomp
 puts'Please Enter the Word you\'d Like to Replace it With'
 word2 = gets.chomp
 
-puts(phrase.far(word1, word2))
+File.write("document2.txt", (phrase.far(word1, word2)))
