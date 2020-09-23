@@ -5,8 +5,7 @@ class Phrase < String
   end
   
   def far(word1, word2)
-    @string.gsub(word1, word2)
-    @string
+    @string.gsub!(word1, word2)
   end
 end
 
