@@ -12,5 +12,7 @@ puts'Please Enter the Word you\'d Like to Replace'
 word1 = gets.chomp
 puts'Please Enter the Word you\'d Like to Replace it With'
 word2 = gets.chomp
+puts'Please Enter the Name of the New File You Would Like to Write Changes To'
+new_file = gets.chomp
 
-File.write("document2.txt", (phrase.far(word1, word2)))
+File.write("#{new_file}.txt", (phrase.far(word1, word2)))
